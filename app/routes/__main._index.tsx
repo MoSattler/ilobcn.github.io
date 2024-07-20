@@ -33,7 +33,7 @@ export default function Index() {
         </p>
       </div>
       <div className="flex flex-col max-w-[300px] items-stretch mt-10 md:mt-0">
-        <img alt="logo" src={logo} className="mx-16 flex-shrink-0" />
+        <img alt="logo" src={logo} className="mx-16 [w-172px] h-[125px] flex-shrink-0" />
         <Link to="/signup"
           type="button"
           className="text-center mt-10 sm:mt-20 rounded-sm bg-yellow-500 px-3.5 py-3.5 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
